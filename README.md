@@ -20,3 +20,16 @@ The histogram is below:
 
 This concludes the first half of the assignment. 
 
+The second half of this assignment I designed a Climate App for the climate of Hawaii. I started off with a homepage which welcomes viewers to the site and shows them all the available routes they can take. 
+
+The first route they can take is "/api/v1.0/precipitation" which will take them to a page showing them all the dates with the corresponding prcp values for 12 months of data. 
+
+The second route they can take is "/api/v1.0/stations" which will take them to a page showing them all the different stations in Hawaii. 
+
+The third route they can take is "/api/v1.0/tobs" which will take them to a page showing them all the dates with the corresponding temperature observations for the most active station in the previous year. 
+
+The fourth route they can take is "/api/v1.0/<start>" where they can enter a date in the format of "%Y-%m-%d" and the page will show them the minimum , maximum , and average temperatures for the specified start date.
+
+The fifth and final route they can take is "/api/v1.0/<start>/<end>" where they can enter a start date in the format "%Y-%m-%d" and an end date in the format "%Y-%m-%d" and the page will show them the minimum, maximum, and average temperatures from the start date to the end date. 
+  
+This concludes the second part of the assignment. 
