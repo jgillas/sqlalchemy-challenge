@@ -1,5 +1,4 @@
 import numpy as np
-import datetime as dt
 from datetime import datetime as dt
 
 import sqlalchemy
@@ -37,15 +36,22 @@ app = Flask(__name__)
 def homepage():
     return(
         f"Welcome to the Homepage for Hawaiian Cliamte Analysis. The avaliable routes are listed below.<br/>"
+        f"Participation for One Year:<br/>"
         f"/api/v1.0/precipitation<br/>"
+        f"List of Stations in Hawaii:<br/>"
         f"/api/v1.0/stations<br/>"
+        f"Temperatures for the Most Active Station in One Year:<br/>"
         f"/api/v1.0/tobs<br/>"
+        f"Temperature Data for a Specified Start Date:<br/>"
         f"/api/v1.0/[start_date format:yyyy-mm-dd]<br/>"
+        f"Temperature Data for a Specified Date Range:<br/>"
         f"/api/v1.0/[start_date format:yyyy-mm-dd]/[end_date format:yyyy-mm-dd]<br/>"
         )
 
 @app.route("/api/v1.0/precipitation")
 def precipitation():
+    
+    import datetime as dt
     
     one_year_from_date = dt.date(2017,8,23) - dt.timedelta(days=365)
     
@@ -71,6 +77,8 @@ def stations():
 
 @app.route("/api/v1.0/tobs")
 def tobs():
+    
+    import datetime as dt
     
     one_year_from_date = dt.date(2017,8,23) - dt.timedelta(days=365)
     
