@@ -6,5 +6,9 @@ In the precipitation analysis we were asked to find the most recent date in the 
 
 The graph is below: 
   
+  <img width="701" alt="Screenshot 2023-05-11 at 2 34 14 AM" src="https://github.com/jgillas/sqlalchemy-challenge/assets/125215083/41a75ba8-2822-4de2-80f5-2c391daa172b">
+  
+
+
 
 
