@@ -8,6 +8,9 @@ The graph is below:
   
   <img width="701" alt="Screenshot 2023-05-11 at 2 34 14 AM" src="https://github.com/jgillas/sqlalchemy-challenge/assets/125215083/41a75ba8-2822-4de2-80f5-2c391daa172b">
   
+I then created a summary statistics table for the precipitation data that I gathered. The table is below: 
+
+  <img width="161" alt="Screenshot 2023-05-11 at 2 15 23 AM" src="https://github.com/jgillas/sqlalchemy-challenge/assets/125215083/176ba830-2cba-4c7b-a7e2-a2e72e83ed85">
 
 
 
